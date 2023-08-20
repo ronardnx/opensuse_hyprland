@@ -1,0 +1,57 @@
+* {
+  font-family: Ubuntu Nerd Font;
+  font-weight: normal;
+  font-size: 14px;
+  min-height: 0;
+}
+#window,
+#clock,
+#tray,
+#workspaces,
+#pulseaudio,
+#battery,
+#network,
+#custom-arch {
+  color: #ffffff;
+  background-color: rgba(69, 69, 69, 0.39);
+  margin-top: 3px;
+  padding: 3px;
+}
+#tray {
+border-radius: 10px 10px 10px 10px;  
+  margin-right: 3px;
+}
+#custom-arch,
+#network {
+border-radius: 10px 0px 0px 10px;
+}
+#clock,
+#workspaces {
+    border-radius: 0px 10px 10px 0px;}
+#custom-arch {
+margin-left: 3px; }
+#clock {
+  font-weight: bold;
+  margin-right: 3px;
+}
+#window {
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+padding-left: 3px;
+padding-right: 3px;
+}
+#workspaces button {
+  color: gray;
+  padding: 1px;
+  }
+#workspaces button.active {
+    color: white;
+}
+
+#workspaces button.focused {
+    color: white;
+  }
+#window {
+  font-weight: bold;
+}
+

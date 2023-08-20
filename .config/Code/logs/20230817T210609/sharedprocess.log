@@ -1,0 +1,37 @@
+2023-08-17 21:06:12.977 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ronard/.vscode/extensions
+2023-08-17 21:06:13.418 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ronard/.vscode/extensions Unable to create file 'vscode-userdata:/home/ronard/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-08-17 21:06:13.419 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ronard/.vscode/extensions
+2023-08-17 21:07:31.998 [info] Getting Manifest... alexowl.transparent-color-theme
+2023-08-17 21:07:32.012 [info] Installing extension: alexowl.transparent-color-theme
+2023-08-17 21:07:32.399 [info] Getting Manifest... drcika.apc-extension
+2023-08-17 21:07:32.633 [info] Installing extension: drcika.apc-extension alexowl.transparent-color-theme
+2023-08-17 21:07:35.406 [info] Extension signature is verified: drcika.apc-extension
+2023-08-17 21:07:35.558 [info] Extracted extension to file:///home/ronard/.vscode/extensions/drcika.apc-extension-0.3.0: drcika.apc-extension
+2023-08-17 21:07:35.567 [info] Renamed to /home/ronard/.vscode/extensions/drcika.apc-extension-0.3.0
+2023-08-17 21:07:35.572 [info] Extracting extension completed. drcika.apc-extension
+2023-08-17 21:07:37.913 [info] Extension signature is verified: alexowl.transparent-color-theme
+2023-08-17 21:07:38.104 [info] Extracted extension to file:///home/ronard/.vscode/extensions/alexowl.transparent-color-theme-1.0.0: alexowl.transparent-color-theme
+2023-08-17 21:07:38.111 [info] Renamed to /home/ronard/.vscode/extensions/alexowl.transparent-color-theme-1.0.0
+2023-08-17 21:07:38.117 [info] Extracting extension completed. alexowl.transparent-color-theme
+2023-08-17 21:07:38.154 [info] Extension installed successfully: drcika.apc-extension
+2023-08-17 21:07:38.154 [info] Extension installed successfully: alexowl.transparent-color-theme
+2023-08-17 21:08:11.421 [info] Uninstalling extension from the profile: alexowl.transparent-color-theme@1.0.0 vscode-userdata:/home/ronard/.vscode/extensions/extensions.json
+2023-08-17 21:08:11.434 [info] Uninstalling extension from the profile: drcika.apc-extension@0.3.0 vscode-userdata:/home/ronard/.vscode/extensions/extensions.json
+2023-08-17 21:08:11.463 [info] Marked extension as uninstalled alexowl.transparent-color-theme-1.0.0
+2023-08-17 21:08:11.479 [info] Marked extension as uninstalled drcika.apc-extension-0.3.0
+2023-08-17 21:08:11.643 [info] Successfully uninstalled extension from the profile alexowl.transparent-color-theme@1.0.0 vscode-userdata:/home/ronard/.vscode/extensions/extensions.json
+2023-08-17 21:08:11.701 [info] Successfully uninstalled extension from the profile drcika.apc-extension@0.3.0 vscode-userdata:/home/ronard/.vscode/extensions/extensions.json
+2023-08-17 21:09:07.817 [info] Getting Manifest... s-nlf-fh.glassit
+2023-08-17 21:09:07.829 [info] Installing extension: s-nlf-fh.glassit
+2023-08-17 21:09:10.612 [info] Extension signature is verified: s-nlf-fh.glassit
+2023-08-17 21:09:10.833 [info] Extracted extension to file:///home/ronard/.vscode/extensions/s-nlf-fh.glassit-0.2.6: s-nlf-fh.glassit
+2023-08-17 21:09:10.843 [info] Renamed to /home/ronard/.vscode/extensions/s-nlf-fh.glassit-0.2.6
+2023-08-17 21:09:10.845 [info] Extracting extension completed. s-nlf-fh.glassit
+2023-08-17 21:09:10.859 [info] Extension installed successfully: s-nlf-fh.glassit
+2023-08-17 21:11:21.666 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2023-08-17 21:11:21.676 [info] Installing extension: equinusocio.vsc-community-material-theme
+2023-08-17 21:11:24.016 [info] Extension signature is verified: equinusocio.vsc-community-material-theme
+2023-08-17 21:11:24.061 [info] Extracted extension to file:///home/ronard/.vscode/extensions/equinusocio.vsc-community-material-theme-1.4.6: equinusocio.vsc-community-material-theme
+2023-08-17 21:11:24.067 [info] Renamed to /home/ronard/.vscode/extensions/equinusocio.vsc-community-material-theme-1.4.6
+2023-08-17 21:11:24.073 [info] Extracting extension completed. equinusocio.vsc-community-material-theme
+2023-08-17 21:11:24.088 [info] Extension installed successfully: equinusocio.vsc-community-material-theme

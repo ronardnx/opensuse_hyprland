@@ -1,0 +1,4 @@
+2023-08-17 21:12:29.246 [error] [Extension Host] /bin/sh: line 1: xprop: command not found
+2023-08-17 21:12:31.676 [info] [perf] Render performance baseline is 460ms
+2023-08-17 21:12:55.308 [error] [Extension Host] /bin/sh: line 1: xprop: command not found
+2023-08-17 21:12:55.324 [info] [perf] Render performance baseline is 471ms

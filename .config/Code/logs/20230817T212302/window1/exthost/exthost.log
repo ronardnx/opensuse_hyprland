@@ -1,0 +1,30 @@
+2023-08-17 21:23:05.401 [info] Extension host with pid 25816 started
+2023-08-17 21:23:05.683 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-17 21:23:05.700 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-08-17 21:23:06.482 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-17 21:23:06.486 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2023-08-17 21:23:06.641 [error] Activating extension s-nlf-fh.glassit failed due to an error:
+2023-08-17 21:23:06.641 [error] Error: Command failed: xprop -root | grep '_NET_CLIENT_LIST(WINDOW)'
+/bin/sh: line 1: xprop: command not found
+
+	at checkExecSyncError (node:child_process:880:11)
+	at Object.execSync (node:child_process:951:15)
+	at Object.execSync (node:electron/js2c/asar_bundle:2:12711)
+	at activate (/home/ronard/.vscode/extensions/s-nlf-fh.glassit-0.2.6/extension.js:59:43)
+	at Dn.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13102)
+	at Dn.db (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12816)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10913
+	at async p.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6206)
+	at async p.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6169)
+	at async p.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:5626)
+2023-08-17 21:23:06.644 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-17 21:23:06.680 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-17 21:23:06.780 [info] Eager extensions activated
+2023-08-17 21:23:06.836 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-17 21:23:06.842 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-17 21:23:07.245 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-17 21:23:07.313 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-17 21:23:07.638 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-17 21:23:07.682 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-17 21:23:37.072 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-17 21:23:37.148 [info] Extension host with pid 25816 exiting with code 0

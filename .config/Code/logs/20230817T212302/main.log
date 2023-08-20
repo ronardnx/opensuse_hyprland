@@ -1,0 +1,9 @@
+2023-08-17 21:23:02.876 [info] update#setState idle
+2023-08-17 21:23:32.882 [info] update#setState checking for updates
+2023-08-17 21:23:32.943 [info] update#setState idle
+2023-08-17 21:23:37.100 [warning] Sending IPC message to channel 'vscode:reportError' for window that is destroyed
+2023-08-17 21:23:37.101 [error] [uncaught exception in main]: TypeError: Object has been destroyed
+2023-08-17 21:23:37.102 [error] TypeError: Object has been destroyed
+    at _.send (node:electron/js2c/browser_init:2:71885)
+    at Function.callback (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:19:97763)
+2023-08-17 21:23:37.150 [info] Extension host with pid 25816 exited with code: 0, signal: unknown.

@@ -1,0 +1,9 @@
+2023-08-17 21:12:30.580 [info] Deleted uninstalled extension from disk alexowl.transparent-color-theme /home/ronard/.vscode/extensions/alexowl.transparent-color-theme-1.0.0
+2023-08-17 21:12:30.581 [info] Deleted uninstalled extension from disk drcika.apc-extension /home/ronard/.vscode/extensions/drcika.apc-extension-0.3.0
+2023-08-17 21:14:26.388 [info] Getting Manifest... bobsparadox.seti-black
+2023-08-17 21:14:26.404 [info] Installing extension: bobsparadox.seti-black
+2023-08-17 21:14:28.920 [info] Extension signature is verified: bobsparadox.seti-black
+2023-08-17 21:14:28.970 [info] Extracted extension to file:///home/ronard/.vscode/extensions/bobsparadox.seti-black-1.0.0: bobsparadox.seti-black
+2023-08-17 21:14:28.977 [info] Renamed to /home/ronard/.vscode/extensions/bobsparadox.seti-black-1.0.0
+2023-08-17 21:14:28.980 [info] Extracting extension completed. bobsparadox.seti-black
+2023-08-17 21:14:28.997 [info] Extension installed successfully: bobsparadox.seti-black

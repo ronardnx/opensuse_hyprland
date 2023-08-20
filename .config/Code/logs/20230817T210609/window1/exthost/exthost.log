@@ -1,0 +1,30 @@
+2023-08-17 21:06:13.166 [info] Extension host with pid 22100 started
+2023-08-17 21:06:13.469 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-17 21:06:13.542 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-17 21:06:13.707 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-17 21:06:13.971 [info] Eager extensions activated
+2023-08-17 21:06:13.977 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-17 21:06:14.472 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-17 21:06:14.482 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-17 21:06:14.798 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-17 21:06:16.895 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-17 21:06:17.050 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-17 21:06:17.161 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-17 21:07:38.568 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2023-08-17 21:09:11.093 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: false, activationEvent: '*'
+2023-08-17 21:09:11.246 [error] Activating extension s-nlf-fh.glassit failed due to an error:
+2023-08-17 21:09:11.246 [error] Error: Command failed: xprop -root | grep '_NET_CLIENT_LIST(WINDOW)'
+/bin/sh: line 1: xprop: command not found
+
+	at checkExecSyncError (node:child_process:880:11)
+	at Object.execSync (node:child_process:951:15)
+	at Object.execSync (node:electron/js2c/asar_bundle:2:12711)
+	at activate (/home/ronard/.vscode/extensions/s-nlf-fh.glassit-0.2.6/extension.js:59:43)
+	at Dn.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13102)
+	at Dn.db (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12816)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10913
+	at async p.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6206)
+	at async p.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6169)
+	at async p.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:5626)
+2023-08-17 21:12:23.103 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-17 21:12:23.170 [info] Extension host with pid 22100 exiting with code 0
