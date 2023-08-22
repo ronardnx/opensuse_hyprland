@@ -1,5 +1,0 @@
-2023-08-17 21:23:43.052 [error] [Extension Host] /bin/sh: line 1: xprop: command not found
-2023-08-17 21:23:45.445 [info] [perf] Render performance baseline is 570ms
-2023-08-17 21:23:54.563 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ronard/.config/hypr/hyprland.conf 
-2023-08-17 21:23:56.630 [error] [Extension Host] /bin/sh: line 1: xprop: command not found
-2023-08-17 21:23:59.036 [info] [perf] Render performance baseline is 465ms
