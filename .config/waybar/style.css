@@ -1,8 +1,10 @@
+@import "frappe.css";
 * {
   font-family: Ubuntu Nerd Font;
   font-weight: normal;
   font-size: 14px;
   min-height: 0;
+  color: @text;
 }
 #window,
 #clock,
@@ -12,13 +14,13 @@
 #battery,
 #network,
 #custom-arch {
-  color: #ffffff;
   background-color: rgba(69, 69, 69, 0.39);
-  margin-top: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 3px;
 }
 #tray {
-border-radius: 10px 10px 10px 10px;  
+  border-radius: 10px 10px 10px 10px;  
   margin-right: 3px;
 }
 #custom-arch,
@@ -54,4 +56,12 @@ padding-right: 3px;
 #window {
   font-weight: bold;
 }
-
+button {
+  min-width: 16px;
+}
+window#waybar {
+  /* you can also GTK3 CSS functions! */
+  background-color: shade(@base, 0.9);
+  border: 2px solid alpha(@crust, 0.3);
+  border-radius: 10px 10px 10px 10px;
+}
