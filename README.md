@@ -1,6 +1,7 @@
 # opensuse_hyprland
 
-![image](https://github.com/ronardnx/opensuse_hyprland/assets/23416091/79a4cd8b-cba9-4ccb-b3c5-fada6a3bf180)
+![image](https://github.com/ronardnx/opensuse_hyprland/assets/23416091/5fb6bf44-3610-430d-a06c-420259eee240)
+
 
 Needed packages:
 - Hyprland
